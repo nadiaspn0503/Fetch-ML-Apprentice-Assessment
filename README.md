@@ -30,4 +30,4 @@ Initially, The embedding and transformer encoder layers are frozen. Train the ta
 ## Task 4: Training Loop Implementation (BONUS)
 The sentences are embedded through a shared BERT encoder to reduce model size, training time, and computational cost. Since each task has different output requirements, I created two separate task-specific heads. Dummy labels were created as hypothetical data to focus on the architecture of the model. Assuming the losses for each task are comparable in class, I used cross-entropy loss as the loss function for both tasks. Accuracy is used as an evaluation metric as this simple metric works well at tracking classification performance. Only one batch was used for simplicity; however, in practice, multiple batches would be used.
 
-***The Jupyter Notebook for this assessment can be found here***
+***The Jupyter Notebook for this assessment can be found [here](https://github.com/nadiaspn0503/Fetch-ML-Apprentice-Assessment/tree/main/Assessment).***
